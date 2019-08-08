@@ -11,6 +11,14 @@
   },
   "author": "Dave",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shizhonghai/css-tricks/issues"
+  },
+  "homepage": "https://github.com/shizhonghai/css-tricks/#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shizhonghai/css-tricks.git"
+  },
   "devDependencies": {
     "element-ui": "^2.11.1",
     "gh-pages": "^2.0.1",
