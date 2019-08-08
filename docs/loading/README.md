@@ -511,6 +511,192 @@
 
 </details>
 
+## loading_8
+
+<loading-load8/>
+
+<details>
+<summary>展开查看代码</summary>
+
+```html
+<div></div>
+```
+
+```css
+div {
+  display: flex;
+  width: 3.5em;
+  height: 3.5em;
+  border: 3px solid transparent;
+  border-top-color: #00adb5;
+  border-bottom-color: #00adb5;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+div:before {
+  content: '';
+  display: block;
+  margin: auto;
+  width: 0.75em;
+  height: 0.75em;
+  border: 3px solid #00adb5;
+  border-radius: 50%;
+  animation: pulse 1s alternate ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+```
+</details>
+
+## loading_9
+
+<loading-load9/>
+
+<details>
+<summary>展开查看代码</summary>
+
+```html
+<div class="box">
+  <div class="coin"></div>
+</div>
+
+```
+
+```scss
+.box {
+  perspective: 120px;
+}
+
+.coin {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: 4px solid #00adb5;
+  animation: spin 1.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotateY(540deg);
+  }
+}
+
+```
+</details>
+
+## loading_10
+
+<loading-load10/>
+
+<details>
+<summary>展开查看代码</summary>
+
+```html
+<div class="balls">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+```
+
+```scss
+.balls {
+  width: 4em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balls div {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: #00adb5;
+}
+
+.balls div:nth-of-type(1) {
+  transform: translateX(-100%);
+  animation: left-swing 0.5s ease-in alternate infinite;
+}
+
+.balls div:nth-of-type(3) {
+  transform: translateX(-95%);
+  animation: right-swing 0.5s ease-out alternate infinite;
+}
+
+@keyframes left-swing {
+  50%,
+  100% {
+    transform: translateX(95%);
+  }
+}
+
+@keyframes right-swing {
+  50% {
+    transform: translateX(-95%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+```
+</details>
+
+## loading_11
+
+<loading-load11/>
+
+<details>
+<summary>展开查看代码</summary>
+
+```html
+<svg viewBox="0 0 50 50">
+  <circle class="ring" cx="25" cy="25" r="20"></circle>
+  <circle class="ball" cx="25" cy="5" r="3.5"></circle>
+</svg>
+```
+
+```scss
+svg {
+  width: 3.75em;
+  animation: 1.5s spin ease infinite;
+}
+
+.ring {
+  fill: none;
+  stroke: hsla(183, 100%, 35%, 0.3);
+  stroke-width: 2;
+}
+
+.ball {
+  fill: #00adb5;
+  stroke: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+```
+</details>
+
 ## 相关项目
 
 1. <a href="https://epic-spinners.epicmax.co/#/" target="_blank">Epic Spinners</a>
+2. <a href="https://cssfx.dev/" target="_blank">cssfx.dev</a>
