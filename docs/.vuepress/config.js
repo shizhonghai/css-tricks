@@ -44,6 +44,13 @@ module.exports = {
                 ]
             },
             {
+                title: "渐变 Gradient",
+                collapsable: false,
+                children: [
+                    ["/conic-gradient/", "角向渐变，可以实现饼图"],
+                ]
+            },
+            {
                 title: "动画",
                 collapsable: false,
                 children: [
