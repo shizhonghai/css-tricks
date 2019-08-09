@@ -2,6 +2,9 @@
 
 <triangle/>
 
+<details>
+<summary>展开查看代码</summary>
+
 ```scss
     // 带边框的三角形
     .border-triangle{
@@ -22,3 +25,4 @@
       }
     }
 ```
+</details>
