@@ -13,7 +13,7 @@ div {
 ```
 </details>
 
-::: tip 截止 2019-08-09 时，只有 Chrome、Safari 浏览器基本兼容
+::: tip 截止 2019/08/09 时，只有 Chrome、Safari 浏览器基本兼容
 <a href="https://caniuse.com/#search=conic-gradient" target="_blank">CanIUse 兼容性查询</a>
 :::
 
