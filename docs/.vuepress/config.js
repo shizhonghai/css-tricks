@@ -34,6 +34,8 @@ module.exports = {
                 children: [
                     ["/triangle/", "三角形边框"],
                     ["/ellipsis/", "文字超出显示省略号"],
+                    ["/font-justify/", "文字两端对齐"],
+                    ["/every-word-capitalize/", "每个单词的首字母大写"],
                 ]
             },
             {
