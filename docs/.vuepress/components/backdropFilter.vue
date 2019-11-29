@@ -9,7 +9,7 @@
                 <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
               </span>
         </el-dialog>
-        <h2>案例二：弹框毛玻璃</h2>
+        <h2>案例二：下拉毛玻璃</h2>
         <el-select v-model="value" placeholder="请选择" value="">
             <el-option
                     v-for="item in options"
