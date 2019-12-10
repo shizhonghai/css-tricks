@@ -43,7 +43,8 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ["/filter/", "滤镜 filter"],
-                    ["/backdrop-filter/", "backdrop-filter与毛玻璃效果"],
+                    ["/backdrop-filter/", "backdrop-filter 与毛玻璃效果"],
+                    ["/position-sticky/", "position: sticky 与粘性定位效果"],
                 ]
             },
             {
