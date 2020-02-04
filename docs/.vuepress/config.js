@@ -55,6 +55,13 @@ module.exports = {
                 ]
             },
             {
+                title: "浏览器",
+                collapsable: false,
+                children: [
+                    ["/safari-input-autofill/", "如何隐藏 Safari 中 input 标签的密码自动填充图标"],
+                ]
+            },
+            {
                 title: "动画",
                 collapsable: false,
                 children: [
