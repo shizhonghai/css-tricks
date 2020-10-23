@@ -1,0 +1,19 @@
+body {
+    font-size: 14px !important;
+}
+
+.theme-default-content code {
+    color: #c7254e !important;
+    background-color: #f9f2f4 !important;
+}
+
+.token.selector, .token.important, .token.atrule, .token.keyword, .token.builtin {
+    color: #cc99cd;
+}
+
+.theme-default-content pre code, .theme-default-content pre[class*="language-"] code {
+    color: #fff !important;
+    padding: 0;
+    background-color: transparent !important;
+    border-radius: 0;
+}
