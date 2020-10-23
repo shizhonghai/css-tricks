@@ -29,8 +29,27 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: "技巧",
+                title: "React 相关",
                 collapsable: false,
+                children: [
+                    ["/react-01/", "说一下 React-Fiber"],
+                    ["/react-02/", "什么是 React Fiber?"],
+                ]
+            },
+            {
+                title: "Webpack 相关",
+                collapsable: false,
+                children: [
+                    ["/webpack-01/", "Babel 的原理是什么?"],
+                    ["/webpack-02/", "webpack 与 grunt、gulp 的不同?"],
+                    ["/webpack-03/", "webpack 中 loader 和 plugin 的区别是什么?"],
+                    ["/webpack-04/", "webpack 中的模块热替换是指什么？原理是怎么样的?"],
+                    ["/webpack-05/", "webpack 的构建流程是怎么样的?"],
+                ]
+            },
+            {
+                title: "技巧",
+                collapsable: true,
                 children: [
                     ["/triangle/", "三角形边框"],
                     ["/ellipsis/", "文字超出显示省略号"],
@@ -41,7 +60,7 @@ module.exports = {
             },
             {
                 title: "属性",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/filter/", "滤镜 filter"],
                     ["/backdrop-filter/", "backdrop-filter 与毛玻璃效果"],
@@ -50,21 +69,21 @@ module.exports = {
             },
             {
                 title: "渐变 Gradient",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/conic-gradient/", "角向渐变，可以实现饼图"],
                 ]
             },
             {
                 title: "浏览器",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/safari-input-autofill/", "如何隐藏 Safari 中 input 标签的密码自动填充图标"],
                 ]
             },
             {
                 title: "动画",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/loading/", "加载动画"],
                 ]

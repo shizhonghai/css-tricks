@@ -20,10 +20,10 @@
     "url": "https://github.com/shizhonghai/css-tricks.git"
   },
   "devDependencies": {
-    "element-ui": "^2.11.1",
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.3"
+    "element-ui": "^2.13.2",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
+    "vuepress": "^1.7.1"
   }
 }
