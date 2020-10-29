@@ -29,6 +29,17 @@ module.exports = {
         ],
         sidebar: [
             {
+                title: "JavaScript 相关",
+                collapsable: false,
+                children: [
+                    ["/javascript-01/", "数组扁平化"],
+                    ["/javascript-02/", "如何让(a===1&&a===2&&a===3)的值为true?"],
+                    ["/javascript-03/", "如何合并数组中相邻且重复的元素?"],
+                    ["/javascript-04/", "创建“内置”方法 "],
+                    ["/javascript-05/", "最长公共前缀"],
+                ]
+            },
+            {
                 title: "React 相关",
                 collapsable: false,
                 children: [
