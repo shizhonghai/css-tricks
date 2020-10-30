@@ -17,3 +17,24 @@ body {
     background-color: transparent !important;
     border-radius: 0;
 }
+
+.sidebar-group a.sidebar-link {
+    padding-left: 1rem !important;
+}
+
+h1 {
+    font-size: 1.8rem !important;
+}
+
+h2 {
+    font-size: 1.4rem !important;
+}
+
+.custom-block.tip, .custom-block.warning, .custom-block.danger {
+    border-width: 4px !important;
+}
+
+.custom-block .custom-block-title {
+    margin-bottom: 0.6rem !important;
+    margin-top: 0.6rem !important;
+}
