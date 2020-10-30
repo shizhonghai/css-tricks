@@ -56,6 +56,9 @@ module.exports = {
                     ["/webpack-03/", "webpack 中 loader 和 plugin 的区别是什么?"],
                     ["/webpack-04/", "webpack 中的模块热替换是指什么？原理是怎么样的?"],
                     ["/webpack-05/", "webpack 的构建流程是怎么样的?"],
+                    ["/webpack-06/", "webpack中source map是什么？生产环境怎么用?"],
+                    ["/webpack-07/", "常见的loader以及作用的总结"],
+                    ["/webpack-08/", "如何实现 webpack 持久化缓存?"],
                 ]
             },
             {
