@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'CSS Tricks',
+    title: 'Tricks',
     description: 'Just playing around',
     dest: './dist',
     base: '/css-tricks/',
@@ -29,14 +29,19 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: "JavaScript 相关",
+                title: "LeetCode 算法题解",
                 collapsable: false,
                 children: [
-                    ["/javascript-01/", "数组扁平化"],
-                    ["/javascript-02/", "如何让(a===1&&a===2&&a===3)的值为true?"],
-                    ["/javascript-03/", "如何合并数组中相邻且重复的元素?"],
-                    ["/javascript-04/", "创建“内置”方法 "],
-                    ["/javascript-05/", "最长公共前缀"],
+                    ["/javascript-01/", "1. 数组扁平化"],
+                    ["/javascript-02/", "2. 如何让(a===1&&a===2&&a===3)的值为true?"],
+                    ["/javascript-03/", "3. 如何合并数组中相邻且重复的元素?"],
+                    ["/javascript-04/", "4. 创建“内置”方法 "],
+                    ["/javascript-05/", "5. 最长公共前缀"],
+                    ["/javascript-06/", "6. 求两个数组的交集"],
+                    ["/javascript-07/", "7. 整数反转"],
+                    ["/javascript-08/", "8. 实现一个 LRU 算法"],
+                    ["/javascript-09/", "9. 回文数"],
+                    ["/javascript-10/", "10. 有效括号"],
                 ]
             },
             {
