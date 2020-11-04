@@ -13,7 +13,7 @@
 
 ```JavaScript
 const fiber = {
-    stateNode,      // 接地单实例
+    stateNode,      // 节点实例
     child,          // 子节点
     sibling,        // 兄弟节点
     return,         // 父节点

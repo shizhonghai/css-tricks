@@ -42,6 +42,17 @@ module.exports = {
                     ["/javascript-08/", "8. 实现一个 LRU 算法"],
                     ["/javascript-09/", "9. 回文数"],
                     ["/javascript-10/", "10. 有效括号"],
+                    ["/javascript-11/", "11. 合并两个有序链表"],
+                    ["/javascript-12/", "12. 删除排序数组中的重复项"],
+                    ["/javascript-13/", "13. 两数之和"],
+                ]
+            },
+            {
+                title: "面试需要记住的概念",
+                collapsable: false,
+                children: [
+                    ["/mianshi-01/", "React-Fiber"],
+                    ["/mianshi-02/", "在线制图"],
                 ]
             },
             {
