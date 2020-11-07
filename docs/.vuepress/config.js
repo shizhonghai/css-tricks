@@ -45,6 +45,7 @@ module.exports = {
                     ["/javascript-11/", "11. 合并两个有序链表"],
                     ["/javascript-12/", "12. 删除排序数组中的重复项"],
                     ["/javascript-13/", "13. 两数之和"],
+                    ["/javascript-14/", "14. 二叉树的最小深度"],
                 ]
             },
             {
@@ -53,6 +54,9 @@ module.exports = {
                 children: [
                     ["/mianshi-01/", "React-Fiber"],
                     ["/mianshi-02/", "在线制图"],
+                    ["/mianshi-03/", "浏览器缓存"],
+                    ["/mianshi-04/", "EventLoop"],
+                    ["/mianshi-05/", "Vue和React的区别"],
                 ]
             },
             {
