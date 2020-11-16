@@ -46,6 +46,9 @@ module.exports = {
                     ["/javascript-12/", "12. 删除排序数组中的重复项"],
                     ["/javascript-13/", "13. 两数之和"],
                     ["/javascript-14/", "14. 二叉树的最小深度"],
+                    ["/javascript-15/", "15. 冒泡排序和选择排序"],
+                    ["/javascript-16/", "16. 插入排序和快速排序"],
+                    ["/javascript-17/", "17. 只出现一次的数字"],
                 ]
             },
             {
