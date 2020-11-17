@@ -60,6 +60,7 @@ module.exports = {
                     ["/mianshi-03/", "浏览器缓存"],
                     ["/mianshi-04/", "EventLoop"],
                     ["/mianshi-05/", "Vue和React的区别"],
+                    ["/mianshi-06/", "React Hook"],
                 ]
             },
             {
