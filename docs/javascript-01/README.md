@@ -2,8 +2,10 @@
 
 ```JavaScript
 let arr = [ [1, 2, 2], [3, 4, 5, 5], [6, 7, 8, 9, [11, 12, [12, 13, [14] ] ] ], 10]
-// 扁平化
+// 扁平化 -- 解法一
 let flattenArr = arr => [].concat(...arr.map(x => Array.isArray(x) ? flattenArr(x) : x));
+// 扁平化 -- 解法二
+// let flattenArr = arr => arr.reduce((prev, next) => prev.concat(Array.isArray(next) ? flattenArr(next) : next), []);
 // 去重
 let disArr = Array.from(new Set(flattenArr(arr)));
 // 排序
