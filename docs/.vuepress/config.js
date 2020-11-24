@@ -30,7 +30,7 @@ module.exports = {
         sidebar: [
             {
                 title: "LeetCode 算法题解",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/javascript-01/", "1. 数组扁平化"],
                     ["/javascript-02/", "2. 如何让(a===1&&a===2&&a===3)的值为true?"],
@@ -52,6 +52,13 @@ module.exports = {
                 ]
             },
             {
+                title: "TypeScript",
+                collapsable: false,
+                children: [
+                    ["/typescript-01/", "type 和 interface 区别"],
+                ]
+            },
+            {
                 title: "面试需要记住的概念",
                 collapsable: false,
                 children: [
@@ -64,7 +71,7 @@ module.exports = {
                 ]
             },
             {
-                title: "React 相关",
+                title: "React",
                 collapsable: false,
                 children: [
                     ["/react-01/", "说一下 React-Fiber"],
@@ -72,8 +79,8 @@ module.exports = {
                 ]
             },
             {
-                title: "Webpack 相关",
-                collapsable: false,
+                title: "Webpack",
+                collapsable: true,
                 children: [
                     ["/webpack-01/", "Babel 的原理是什么?"],
                     ["/webpack-02/", "webpack 与 grunt、gulp 的不同?"],
