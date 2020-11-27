@@ -25,6 +25,8 @@ type User = {
 type SetUser = (name: string, age: number)=> void;
 ```
 
+2. 两者都可以实现继承
+
 ## 不同点
 1. 语法不同
 ```JavaScript

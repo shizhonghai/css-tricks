@@ -49,6 +49,7 @@ module.exports = {
                     ["/javascript-15/", "15. 冒泡排序和选择排序"],
                     ["/javascript-16/", "16. 插入排序和快速排序"],
                     ["/javascript-17/", "17. 只出现一次的数字"],
+                    ["/javascript-18/", "18. 数组中重复的数字"],
                 ]
             },
             {
