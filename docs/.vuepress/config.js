@@ -50,6 +50,7 @@ module.exports = {
                     ["/javascript-16/", "16. 插入排序和快速排序"],
                     ["/javascript-17/", "17. 只出现一次的数字"],
                     ["/javascript-18/", "18. 数组中重复的数字"],
+                    ["/javascript-19/", "19. 买卖股票的最佳时机"],
                 ]
             },
             {
