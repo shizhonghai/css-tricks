@@ -70,6 +70,7 @@ module.exports = {
                     ["/mianshi-04/", "EventLoop"],
                     ["/mianshi-05/", "Vue和React的区别"],
                     ["/mianshi-06/", "React Hook"],
+                    ["/mianshi-07/", "说一下 http 和 https"],
                 ]
             },
             {
